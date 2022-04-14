@@ -1,5 +1,3 @@
-<?php
-
 /**
  * A cURL library to fetch a large number of resources while maintaining
  * a consistent number of simultaneous connections
