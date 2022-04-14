@@ -1,4 +1,3 @@
-<?php
 class curl {
 	var $ch, $agent, $error, $info, $cookiefile, $savecookie;	
 	function curl() {
@@ -188,4 +187,3 @@ $length = strlen($find_start);
 $end    = strpos(substr($str,$start +$length),$find_end);
 return trim(substr($str,$start +$length,$end));
 }
-?>
